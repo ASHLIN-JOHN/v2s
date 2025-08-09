@@ -1,0 +1,20 @@
+
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+NEXT_PUBLIC_FIREBASE_API_KEY="AIzaSyASQdYasDLzM-cE_TA28DunCt54CMVvbCA"
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="vlearn-ashlin.firebaseapp.com"
+NEXT_PUBLIC_FIREBASE_PROJECT_ID="vlearn-ashlin"
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="vlearn-ashlin.firebasestorage.app"
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="856597342573"
+NEXT_PUBLIC_FIREBASE_APP_ID="1:856597342573:web:c3dc709f4637d694b3d264"
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID="G-WVSWMT0XVX"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
